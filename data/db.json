@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Form",
+      "details": "My first project HTML and CSS",
+      "img": "@/assets/Projects/Form.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Bootstrap Mini Project",
+      "details": "First project using Bootstrap",
+      "img": "@/assets/Projects/Bootstrap Mini Project.jpg"
+    },
+    {
+      "id": 3,
+      "title": "JavaScript Calculator",
+      "details": "First project that included JavaScript",
+      "img": "@/assets/Projects/Calculator.jpg"
+    },
+    {
+      "id": 4,
+      "title": "eCommerce Store",
+      "details": "We had to create an eCommerce Store",
+      "img": "@/assets/Projects/eCommerce Store.jpg"
+    }
+  ]
+}
