@@ -1,8 +1,8 @@
 <template>
-  <div class="container text-start my-5">
+  <h2 class="fw-bold mb-5">About Me</h2>
+  <div class="container text-start mt-10 animate__animated animate__fadeInLeft">
     <div class="row">
       <div class="col-lg-12 col-sm-12">
-        <h2 class="fw-bold">About Me</h2>
         <p class="text-muted">
           I am a hard-working, diligent and patient individual. I am rather a
           shy fellow, but with time and getting to know people more I become
@@ -56,17 +56,14 @@
             ></a>
           </li>
         </ul>
-        <a class="btn btn-dark" href="#Projects" title="Download CV"
-          >Projects</a
-        >
       </div>
     </div>
   </div>
-  
-  <div class="container my-5 shadow-5-strong">
+
+  <div class="container my-5 animate__animated animate__fadeInRight">
     <div class="row">
       <div class="col-xl-3 col-md-6 col-sm-12">
-        <div class="card">
+        <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
@@ -92,7 +89,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
@@ -120,7 +117,7 @@
       </div>
 
       <div class="col-xl-3 col-md-6 col-sm-12">
-        <div class="card">
+        <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
@@ -146,7 +143,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
@@ -174,7 +171,7 @@
       </div>
 
       <div class="col-xl-3 col-md-6 col-sm-12">
-        <div class="card">
+        <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
@@ -200,7 +197,7 @@
           </div>
         </div>
 
-        <div class="card">
+        <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
@@ -228,7 +225,7 @@
       </div>
 
       <div class="col-xl-3 col-md-6 col-sm-12">
-        <div class="card">
+        <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>

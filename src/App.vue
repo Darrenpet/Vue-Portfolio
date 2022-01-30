@@ -1,14 +1,18 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link :to="{ name: 'About' }">About</router-link> |
-    <router-link :to="{ name: 'Resume' }">Resume</router-link> |
-    <router-link :to="{ name: 'Projects' }">Projects</router-link> |
-    <router-link :to="{ name: 'Testimonials' }">Testimonials</router-link> |
-    <router-link :to="{ name: 'Contact' }">Contact</router-link>
-  </div>
+  <Navbar />
   <router-view />
+  <Footer />
 </template>
+f
+<script>
+import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
+
+export default {
+  name: "App",
+  components: { Navbar, Footer },
+};
+</script>
 
 <style>
 #app {
@@ -19,13 +23,9 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
-
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: white;
   text-decoration: none;
   padding: 10px;
   border-radius: 4px;

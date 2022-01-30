@@ -1,19 +1,19 @@
 <template>
-  <h2 class="fw-bold">Testimonials</h2>
-  <div class="container shadow-5-strong my-5">
+  <h2 class="fw-bold mb-2">Testimonials</h2>
+  <div class="container my-5">
     <div class="row">
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card mt-2 mb-3">
+        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2831%29.jpg"
-              class="rounded-circle img-fluid"
+              src="@/assets/Testimonials/Kagiso.jpg"
+              class="rounded-circle img-fluid test-img"
               alt="Kagiso"
             />
           </div>
           <div class="card-body text-center">
-            <h4 class="card-title font-weight-bold">Kagsio Mphayi</h4>
+            <h4 class="card-title font-weight-bold">Kagiso Mphayi</h4>
             <hr />
             <p>
               <i class="fas fa-quote-left"></i> Darren is a smart working
@@ -29,12 +29,12 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card mt-2 mb-3">
+        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2831%29.jpg"
-              class="rounded-circle img-fluid"
+              src="@/assets/Testimonials/Jordan.jpg"
+              class="rounded-circle img-fluid test-img"
               alt="Jordan"
             />
           </div>
@@ -57,12 +57,12 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card mt-2 mb-3">
+        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2831%29.jpg"
-              class="rounded-circle img-fluid"
+              src="@/assets/Testimonials/Mullins.jpg"
+              class="rounded-circle img-fluid test-img"
               alt="Mullins"
             />
           </div>
@@ -83,12 +83,12 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card mt-2 mb-3">
+        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2831%29.jpg"
-              class="rounded-circle img-fluid"
+              src="@/assets/Testimonials/Ubaidullah.jpg"
+              class="rounded-circle img-fluid test-img"
               alt="Ubaid"
             />
           </div>
@@ -109,12 +109,12 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card mt-2 mb-3">
+        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2831%29.jpg"
-              class="rounded-circle img-fluid"
+              src="@/assets/Testimonials/Hannah.jpg"
+              class="rounded-circle img-fluid test-img"
               alt="Hannah"
             />
           </div>
@@ -123,7 +123,7 @@
             <hr />
             <p>
               <i class="fas fa-quote-left"></i> Darren is a hardworking
-              individual and always ready to help a teamate in need.
+              individual and always ready to help a teammate in need.
               <i class="fas fa-quote-right"></i>
             </p>
             <p class="card-text">
@@ -134,12 +134,12 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card mt-2 mb-3">
+        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2831%29.jpg"
-              class="rounded-circle img-fluid"
+              src="@/assets/Testimonials/Godwin.jpeg"
+              class="rounded-circle img-fluid test-img"
               alt="Mr.G"
             />
           </div>
@@ -166,4 +166,9 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.test-img {
+  max-width: 300px;
+  max-height: 300px;
+}
+</style>

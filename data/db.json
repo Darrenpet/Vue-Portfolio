@@ -4,25 +4,33 @@
       "id": 1,
       "title": "Form",
       "details": "My first project HTML and CSS",
-      "img": "@/assets/Projects/Form.jpg"
+      "img": "@/assets/Thumbnails/Form.jpg",
+      "github": "https://github.com/Darrenpet/Form",
+      "netlify": "https://1234darren.netlify.app"
     },
     {
       "id": 2,
       "title": "Bootstrap Mini Project",
       "details": "First project using Bootstrap",
-      "img": "@/assets/Projects/Bootstrap Mini Project.jpg"
+      "img": "@/assets/Thumbnails/BootstrapMiniProject.jpg",
+      "github": "https://github.com/Darrenpet/Bootstrap-Mini-Project",
+      "netlify": "https://friendly-noyce-2084d5.netlify.app"
     },
     {
       "id": 3,
       "title": "JavaScript Calculator",
       "details": "First project that included JavaScript",
-      "img": "@/assets/Projects/Calculator.jpg"
+      "img": "@/assets/Thumbnails/Calculator.jpg",
+      "github": "https://github.com/Darrenpet/Calculator",
+      "netlify": "https://affectionate-chandrasekhar-919229.netlify.app"
     },
     {
       "id": 4,
       "title": "eCommerce Store",
       "details": "We had to create an eCommerce Store",
-      "img": "@/assets/Projects/eCommerce Store.jpg"
+      "img": "@/assets/Thumbnails/eCommerceStore.jpg",
+      "github": "https://github.com/Darrenpet/CRUD-Excercise",
+      "netlify": "https://awesome-davinci-9bf4c2.netlify.app"
     }
   ]
 }

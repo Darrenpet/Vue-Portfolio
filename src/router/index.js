@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
-import About from "../views/About.vue";
-import Resume from "../views/Resume.vue";
-import Projects from "../views/Projects/Projects.vue";
-import ProjectDetails from "../views/Projects/ProjectDetails.vue";
-import Testimonials from "../views/Testimonials.vue";
-import Contact from "../views/Contact.vue";
-import NotFound from "../views/NotFound.vue";
+import Home from "@/views/Home.vue";
+import About from "@/views/About.vue";
+import Resume from "@/views/Resume.vue";
+import Projects from "@/views/Projects/Projects.vue";
+import ProjectDetails from "@/views/Projects/ProjectDetails.vue";
+import Testimonials from "@/views/Testimonials.vue";
+import Contact from "@/views/Contact.vue";
+import NotFound from "@/views/NotFound.vue";
 
 const routes = [
   {
@@ -33,7 +33,7 @@ const routes = [
     path: "/Projects/:id",
     name: "ProjectDetails",
     component: ProjectDetails,
-    props: true
+    props: true,
   },
   {
     path: "/testimonials",

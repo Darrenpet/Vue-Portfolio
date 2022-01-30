@@ -1,10 +1,10 @@
 <template>
-  <div class="main-container my-5">
+  <h2 class="fw-bold">My Resume</h2>
+  <div class="main-container my-5 animate__animated animate__rotateIn">
     <section id="timeline" class="timeline-outer">
       <div class="container" id="content">
         <div class="row">
           <div class="col s12 m12 l12">
-            <h2 class="fw-bold text-start">My Resume</h2>
             <ul class="timeline py-5">
               <li class="event" data-date="2021/Present">
                 <h2 class="fw-bold">Web development and Coding</h2>
