@@ -13,13 +13,12 @@
                 />
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-5">
               <div class="container">
-                <p class="fw-bold h3 display-4">
-                  Aspiring <span class="typed-text"></span
-                  ><span class="cursor">&nbsp;</span>
-                </p>
                 <p class="h4">Darren Petersen</p>
+                <p class="fw-bold h3 display-6">
+                  Aspiring <span id="text"></span>
+                </p>
               </div>
             </div>
           </div>
@@ -92,50 +91,47 @@ particlesJS("particles-js", {
   retina_detect: true,
 });
 
-// const typedTextSpan = document.querySelector(".typed-text");
-// const cursorSpan = document.querySelector(".cursor");
+const sentences = ["Full-Stack Developer", "Web Developer"];
 
-// const textArray = ["Web Developer", "Full Stack Developer"];
-// const typingDelay = 200;
-// const erasingDelay = 100;
-// const newTextDelay = 2000; // Delay between current and next text
-// let textArrayIndex = 0;
-// let charIndex = 0;
+function waitForMs(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
-// function type() {
-//   if (charIndex < textArray[textArrayIndex].length) {
-//     if (!cursorSpan.classList.contains("typing"))
-//       cursorSpan.classList.add("typing");
-//     typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-//     charIndex++;
-//     setTimeout(type, typingDelay);
-//   } else {
-//     cursorSpan.classList.remove("typing");
-//     setTimeout(erase, newTextDelay);
-//   }
-// }
+async function typeSentence(sentence, element, delay = 100) {
+  const letters = sentence.split("");
+  let i = 0;
+  while (i < letters.length) {
+    await waitForMs(delay);
+    document.querySelector(element).append(letters[i]);
+    i++;
+  }
+}
 
-// function erase() {
-//   if (charIndex > 0) {
-//     if (!cursorSpan.classList.contains("typing"))
-//       cursorSpan.classList.add("typing");
-//     typedTextSpan.textContent = textArray[textArrayIndex].substring(
-//       0,
-//       charIndex - 1
-//     );
-//     charIndex--;
-//     setTimeout(erase, erasingDelay);
-//   } else {
-//     cursorSpan.classList.remove("typing");
-//     textArrayIndex++;
-//     if (textArrayIndex >= textArray.length) textArrayIndex = 0;
-//     setTimeout(type, typingDelay + 1100);
-//   }
-// }
+async function deleteSentence(element) {
+  const sentence = document.querySelector(element).innerHTML;
+  const letters = sentence.split("");
+  while (letters.length > 0) {
+    await waitForMs(100);
+    letters.pop();
+    document.querySelector(element).innerHTML = letters.join("");
+  }
+}
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   if (textArray.length) setTimeout(type, newTextDelay + 250);
-// });
+async function sentenceLoop(sentenceList, element) {
+  let i = 0;
+  while (true) {
+    await typeSentence(sentenceList[i], element);
+    await waitForMs(1500);
+    await deleteSentence(element);
+    await waitForMs(500);
+    i++;
+    if (i >= sentenceList.length) {
+      i = 0;
+    }
+  }
+}
+
+sentenceLoop(sentences, "#text");
 </script>
 
 <style>
@@ -159,11 +155,11 @@ particlesJS("particles-js", {
   box-sizing: border-box;
 }
 
-/* .section-slide .img-fluid {
+.section-slide .img-fluid {
   max-width: 100%;
   height: auto;
-  border-radius: 50%;
-} */
+  border-radius: 70%;
+}
 
 .section-slide .home .container {
   height: auto;
@@ -182,38 +178,23 @@ particlesJS("particles-js", {
   overflow: hidden;
 }
 
-.section-slide .home .container p span.typed-text {
-  font-weight: normal;
-  color: #dd7732;
-}
-
-.section-slide .home .container p span.cursor {
-  display: inline-block;
-  background-color: #ccc;
-  margin-left: 0.1rem;
+#text:after {
+  content: "";
   width: 3px;
+  height: 100%;
+  background: black;
+  position: absolute;
   animation: blink 1s infinite;
 }
 
-.section-slide .home .container p span.cursor.typing {
-  animation: none;
-}
-
 @keyframes blink {
-  0% {
-    background-color: #ccc;
-  }
+  0%,
   49% {
-    background-color: #ccc;
+    background: black;
   }
-  50% {
-    background-color: transparent;
-  }
-  99% {
-    background-color: transparent;
-  }
+  50%,
   100% {
-    background-color: #ccc;
+    background: white;
   }
 }
 </style>

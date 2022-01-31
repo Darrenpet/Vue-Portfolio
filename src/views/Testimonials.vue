@@ -3,7 +3,9 @@
   <div class="container my-5">
     <div class="row">
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
+        <div
+          class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4 animate__animated animate__jackInTheBox"
+        >
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
@@ -29,7 +31,9 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
+        <div
+          class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4 animate__animated animate__jackInTheBox"
+        >
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
@@ -57,7 +61,9 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
+        <div
+          class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4 animate__animated animate__jackInTheBox"
+        >
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
@@ -83,7 +89,9 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
+        <div
+          class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4 animate__animated animate__jackInTheBox"
+        >
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
@@ -109,7 +117,9 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
+        <div
+          class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4 animate__animated animate__jackInTheBox"
+        >
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img
@@ -134,7 +144,9 @@
       </div>
 
       <div class="col-xl-6 col-md-6 col-sm-12">
-        <div class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4">
+        <div
+          class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4 animate__animated animate__jackInTheBox"
+        >
           <div class="card-up aqua-gradient"></div>
           <div class="avatar mx-auto white">
             <img

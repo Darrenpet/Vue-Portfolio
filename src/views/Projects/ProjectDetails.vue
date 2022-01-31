@@ -1,6 +1,6 @@
 <template>
   <h2 class="fw-bold">Project Details</h2>
-  <div class="container">
+  <div class="container animate__animated animate__rubberBand">
     <div v-if="project">
       <div
         class="card border border-primary shadow-0 text-white"

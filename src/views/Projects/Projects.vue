@@ -25,7 +25,9 @@
             },
           }"
         >
-          <h2 class="text-white my-5">{{ project.title }}</h2>
+          <h2 class="text-white my-5 animate__animated animate__zoomIn">
+            {{ project.title }}
+          </h2>
         </router-link>
       </div>
     </div>
