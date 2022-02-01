@@ -1,10 +1,6 @@
 <template>
-  <h1 class="fw-bold">404</h1>
-  <h2 class="fw-bold">Page Not Found</h2>
+  <div class="animate__animated animate__pulse animate__infinite">
+    <h1 class="fw-bold text-primary display-4">404</h1>
+    <h2 class="fw-bold text-primary display-6">Page Not Found</h2>
+  </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style></style>

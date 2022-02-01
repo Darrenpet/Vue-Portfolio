@@ -1,5 +1,5 @@
 <template>
-  <h2 class="fw-bold">Project Details</h2>
+  <h2 class="fw-bold my-5">Project Details</h2>
   <div class="container animate__animated animate__rubberBand">
     <div v-if="project">
       <div
@@ -10,7 +10,10 @@
           class="bg-image hover-overlay ripple"
           data-mdb-ripple-color="light"
         >
-          <img :src="project.img" class="img-fluid" />
+          <img
+            :src="require('@/assets/Thumbnails/' + project.img)"
+            class="img-fluid"
+          />
           <a href="#!">
             <div
               class="mask"
@@ -18,7 +21,7 @@
             ></div>
           </a>
         </div>
-        <div class="card-header">Featured</div>
+        <div class="card-header">Project: {{ project.id }}</div>
         <div class="card-body">
           <h5 class="card-title">{{ project.title }}</h5>
           <p class="card-text">{{ project.details }}</p>

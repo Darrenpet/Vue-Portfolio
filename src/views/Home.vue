@@ -15,9 +15,9 @@
             </div>
             <div class="col-md-6 mt-5">
               <div class="container">
-                <p class="h4">Darren Petersen</p>
+                <p class="h1 fw-bold">Darren Petersen</p>
                 <p class="fw-bold h3 display-6">
-                  Aspiring <span id="text"></span>
+                  Aspiring <span class="text-primary" id="text"></span>
                 </p>
               </div>
             </div>
@@ -139,11 +139,9 @@ sentenceLoop(sentences, "#text");
   position: absolute;
   width: 100%;
   height: 100%;
-  /* background-color: #caf0f8; */
-  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 100%;
   z-index: -1;
 }
 
@@ -158,7 +156,7 @@ sentenceLoop(sentences, "#text");
 .section-slide .img-fluid {
   max-width: 100%;
   height: auto;
-  border-radius: 70%;
+  border-radius: 50%;
 }
 
 .section-slide .home .container {
@@ -181,7 +179,7 @@ sentenceLoop(sentences, "#text");
 #text:after {
   content: "";
   width: 3px;
-  height: 20%;
+  height: 15%;
   background: black;
   position: absolute;
   animation: blink 1s infinite;
@@ -196,5 +194,9 @@ sentenceLoop(sentences, "#text");
   100% {
     background: white;
   }
+}
+
+.row {
+  padding-top: 30px;
 }
 </style>

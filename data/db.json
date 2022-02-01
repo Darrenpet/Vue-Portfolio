@@ -1,26 +1,53 @@
 {
+  "resume": [
+    {
+      "date": "2021/Present",
+      "event": "Web development and Coding",
+      "place": "LifeChoices Academy",
+      "details": "Started a Web development and Coding Course at LifeChoices Academy. I have started learning the following languages: HTML, CSS, JavaScript, MySQL, Vue, Front-End and Back-End development."
+    },
+    {
+      "date": "2016/2017",
+      "event": "Higher Certificate in Accounting Science",
+      "place": "Univercity of South Africa (UNISA)",
+      "details": "Started my Higher Certificate in Accounting Science. Subjects that I finished are: BNU1501, CAS1501, CLA1503, ENN1504, FAC1501, MNB1501, MAC1501 and TAX1501. I had to drop out from the course due to financial reasons. Subjects that are outstanding: AUE1501 and FAC1502."
+    },
+    {
+      "date": "2014/2020",
+      "event": "Accountant/Bookkeeper",
+      "place": "Muizenberg Bowling and Croquet Club",
+      "details": "Started doing volunteer bookkeeping and admin work at Muizenberg Bowling and Croquet Club."
+    },
+    {
+      "date": "2014/2014",
+      "event": "Bachelors Pass",
+      "place": "Muizenberg High School",
+      "details": "Finished my matric with a Bachelors Pass."
+    }
+  ],
+
   "projects": [
     {
       "id": 1,
-      "title": "Form",
+      "title": "First Portfolio",
       "details": "My first project HTML and CSS",
-      "img": "@/assets/Thumbnails/Form.jpg",
-      "github": "https://github.com/Darrenpet/Form",
+      "img": "FirstPortfolio.jpg",
+      "github": "https://github.com/Darrenpet/First-Portfolio",
       "netlify": "https://1234darren.netlify.app"
     },
     {
       "id": 2,
-      "title": "Bootstrap Mini Project",
-      "details": "First project using Bootstrap",
-      "img": "@/assets/Thumbnails/BootstrapMiniProject.jpg",
-      "github": "https://github.com/Darrenpet/Bootstrap-Mini-Project",
-      "netlify": "https://friendly-noyce-2084d5.netlify.app"
+      "title": "Temperature Converter",
+      "details": "We had to Temperature Converter (From Degree to Fahrenheit and back)",
+      "img": "TemperatureConverter.jpg",
+      "github": "https://github.com/Darrenpet/Temperature-Converter",
+      "netlify": "https://kind-villani-453fd1.netlify.app"
     },
     {
       "id": 3,
       "title": "JavaScript Calculator",
       "details": "First project that included JavaScript",
-      "img": "@/assets/Thumbnails/Calculator.jpg",
+      "img": "Calculator.jpg",
       "github": "https://github.com/Darrenpet/Calculator",
       "netlify": "https://affectionate-chandrasekhar-919229.netlify.app"
     },
@@ -28,9 +55,64 @@
       "id": 4,
       "title": "eCommerce Store",
       "details": "We had to create an eCommerce Store",
-      "img": "@/assets/Thumbnails/eCommerceStore.jpg",
+      "img": "eCommerceStore.jpg",
       "github": "https://github.com/Darrenpet/CRUD-Excercise",
       "netlify": "https://awesome-davinci-9bf4c2.netlify.app"
+    },
+    {
+      "id": 5,
+      "title": "Bootstrap Mini Project",
+      "details": "We had to recreate a website using Bootstrap",
+      "img": "BootstrapMiniProject.jpg",
+      "github": "https://github.com/Darrenpet/Bootstrap-Mini-Project",
+      "netlify": "https://friendly-noyce-2084d5.netlify.app"
+    },
+    {
+      "id": 6,
+      "title": "BMI Calculator",
+      "details": "We were tasked with making a BMI Calculator",
+      "img": "BMICalculator.jpg",
+      "github": "https://github.com/Darrenpet/BMI-Calculator",
+      "netlify": "https://brave-wozniak-3da144.netlify.app"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "name": "Kagiso Mphayi",
+      "quote": "Darren is a smartworking individual who is always focused. He shows great attention to detail and has good time management skills.",
+      "img": "Kagiso.jpg",
+      "relation": "Class 1 colleague"
+    },
+    {
+      "name": "Jordan Dawson",
+      "quote": "Darren Petersen is a hardworking and quick student who picks up on things extremely easily and is very adaptable to most situations. He is also very dedicated to his work and will put extra effort and time where it needs to be put into.",
+      "img": "Jordan.jpg",
+      "relation": "Class 1 colleague"
+    },
+    {
+      "name": "Abdul Atheem Mullins",
+      "quote": "Darren is one of the most honest, hardworking, inspiring and dedicated pupil i know. Darren always strives to complete any task to the best of his ability.",
+      "img": "Mullins.jpeg",
+      "relation": "Class 1 colleague"
+    },
+    {
+      "name": "Ubaidullah Breda",
+      "quote": "Darren is a person with a wonderful character, he always shares the information that he has and is very easy to work with while motivating me to do better.",
+      "img": "Ubaidullah.jpg",
+      "relation": "Class 1 colleague"
+    },
+    {
+      "name": "Hannah Dalwai",
+      "quote": "Darren is a hardworking individual and always ready to help a teammate in need.",
+      "img": "Hannah.jpg",
+      "relation": "Class 2 colleague"
+    },
+    {
+      "name": "Godwin Dzvapatsva",
+      "quote": "Darren shows a lot of creativity in coding classes It's a pleasure watching him focus on the work in class. I am cheering Darren on to do well in web development.",
+      "img": "Godwin.jpeg",
+      "relation": "Head of Curriculum and Learning"
     }
   ]
 }

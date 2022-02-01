@@ -13,9 +13,9 @@
         </p>
         <h6 class="fw-bold">Passion Board</h6>
         <p class="text-muted">
-          Sports(rugby, cricket, football, lawn
-          bowls), Outdoor activities, Watching live
-          games(rugby, cricket, football), Gaming on my mobile/pc, Watching YouTube channels
+          Sports(rugby, cricket, football, lawn bowls), Outdoor activities,
+          Watching live games(rugby, cricket, football), Gaming on my mobile/pc,
+          Watching YouTube channels
         </p>
         <h6 class="fw-bold">Soft Skills</h6>
         <p class="text-muted">
@@ -60,7 +60,9 @@
     </div>
   </div>
 
-  <div class="container my-5 animate__animated animate__fadeInRight">
+  <div
+    class="container my-5 animate__animated animate__fadeInRight animate__delay-2s"
+  >
     <div class="row">
       <div class="col-xl-3 col-md-6 col-sm-12">
         <div class="card my-3 shadow-5-strong">
