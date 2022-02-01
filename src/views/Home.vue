@@ -181,7 +181,7 @@ sentenceLoop(sentences, "#text");
 #text:after {
   content: "";
   width: 3px;
-  height: 100%;
+  height: 20%;
   background: black;
   position: absolute;
   animation: blink 1s infinite;

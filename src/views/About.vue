@@ -13,9 +13,9 @@
         </p>
         <h6 class="fw-bold">Passion Board</h6>
         <p class="text-muted">
-          Watching YouTube channels, sports(rugby, cricket, football, lawn
-          bowls), Gaming on my mobile/pc, Outdoor activities watching live
-          games(rugby, cricket, football),
+          Sports(rugby, cricket, football, lawn
+          bowls), Outdoor activities, Watching live
+          games(rugby, cricket, football), Gaming on my mobile/pc, Watching YouTube channels
         </p>
         <h6 class="fw-bold">Soft Skills</h6>
         <p class="text-muted">
