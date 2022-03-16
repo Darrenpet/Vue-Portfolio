@@ -1,58 +1,54 @@
 <template>
-  <div class="container mb-5">
+  <div class="container my-5">
     <div class="row my-5">
       <div
-        class="col-xl-6 col-md-6 col-sm-12 animate__animated animate__rotateInDownLeft"
+        class="col-xl-6 col-md-6 col-sm-12 animate__animated animate__rotateInDownLeft content-center"
       >
-        <h2 class="fw-bold mb-2">Contact Me</h2>
-        <form action="https://formspree.io/f/mzboedjl" method="POST">
-          <label class="text-dark">Email:</label>
+        <h1 class="fw-bold">Contact Me</h1>
+        <form @submit.prevent="handleSubmit">
+          <label class="h4 text-dark">Full Name:</label>
           <input
-            class="border-3"
+            class="mb-5 border-3"
+            type="text"
+            name="name"
+            v-model="name"
+            required
+          />
+          <label class="h4 text-dark">Email:</label>
+          <input
+            class="mb-5 border-3"
             type="email"
             name="email"
             v-model="email"
             required
           />
 
-          <label class="text-dark">Password:</label>
-          <input
-            class="border-3"
-            type="password"
-            name="password"
-            v-model="password"
-            required
-          />
-          <div v-if="passwordError" class="error">{{ passwordError }}</div>
-
           <div class="form-outline">
-            <label class="form-label text-dark" for="form4Example3"
-              >Message</label
+            <label class="h4 form-label text-dark" for="form4Example3"
+              >Message:</label
             >
             <textarea
-              class="form-control"
+              class="mb-2 form-control"
               id="form4Example3"
               rows="4"
               name="message"
+              v-model="message"
               required
             ></textarea>
           </div>
 
-          <div class="terms my-3">
-            <input type="checkbox" v-model="terms" required />
-            <label class="text-dark">Accept Terms and Conditions</label>
-          </div>
-
           <div class="submit my-3">
-            <button class="btn-primary" target="_blank">Submit</button>
+            <button class="btn-primary" type="submit" target="_blank">
+              Submit
+            </button>
           </div>
         </form>
       </div>
 
       <div
-        class="col-xl-6 col-md-6 col-sm-12 animate__animated animate__rotateInDownRight"
+        class="col-xl-6 col-md-6 col-sm-12 animate__animated animate__rotateInDownRight content-center"
       >
-        <h2 class="fw-bold">Contact Details</h2>
+        <h1 class="fw-bold">Contact Details</h1>
 
         <div class="card my-5 shadow-5-strong">
           <div class="card-body">
@@ -90,7 +86,7 @@
               </div>
               <div class="text-end">
                 <h3>Location</h3>
-                <p class="mb-0">South Africa, Cape Town</p>
+                <p class="mb-0">South Africa, Cape Town, Strandfontein</p>
               </div>
             </div>
           </div>
@@ -104,23 +100,28 @@
 export default {
   data() {
     return {
+      name: "",
       email: "",
-      password: "",
-      terms: false,
-      passwordError: "",
+      message: "",
     };
   },
+
   methods: {
     handleSubmit() {
-      // validate password
-      this.passwordError =
-        this.password.length > 5 ? "" : "Password must at least be 6 char long";
-
-      if (!this.passwordError) {
-        console.log("email: ", this.email);
-        console.log("password: ", this.password);
-        console.log("terms accepted: ", this.terms);
-      }
+      fetch("https://vue-portfolio-api.herokuapp.com/contact", {
+        method: "POST",
+        body: JSON.stringify({
+          name: this.name,
+          email: this.email,
+          message: this.message,
+        }),
+        headers: {
+          "Content-type": "application/json; charset=UTF-8",
+        },
+      })
+        .then((res) => res.json())
+        .then((data) => (this.contact = data))
+        .catch((err) => console.log(err.message));
     },
   },
 };
@@ -189,6 +190,10 @@ button {
 
 .submit {
   text-align: center;
+}
+
+textarea {
+  border-color: black;
 }
 
 .error {

@@ -1,10 +1,11 @@
 <template>
-  <h2 class="fw-bold mb-2">Testimonials</h2>
+  <h1 class="fw-bold mt-5">Testimonials</h1>
   <div class="container my-5">
     <div v-if="testimonials.length" class="row">
       <div
         v-for="testimonial in testimonials"
-        class="col-xl-6 col-md-6 col-sm-12"
+        :key="testimonial.id"
+        class="col-lg-4 col-md-6 col-sm-12"
       >
         <div
           class="card testimonial-card shadow-5-strong mt-2 mb-3 pt-4 animate__animated animate__jackInTheBox"
@@ -47,10 +48,19 @@ export default {
     };
   },
   mounted() {
-    fetch("http://localhost:3000/testimonials")
-      .then((res) => res.json())
-      .then((data) => (this.testimonials = data))
-      .catch((err) => console.log(err.message));
+    fetch("https://vue-portfolio-api.herokuapp.com/testimonials", {
+      method: "GET",
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((response) => response.json())
+      .then((json) => {
+        this.testimonials = json;
+      })
+      .catch((err) => {
+        alert(console.log(err));
+      });
   },
 };
 </script>
@@ -64,4 +74,10 @@ export default {
 .testimonial-card {
   height: 550px;
 }
+
+/* @media only screen and (max-width: 600px) {
+  .testimonial-card {
+    height: 450px;
+  }
+} */
 </style>

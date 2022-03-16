@@ -3,7 +3,7 @@
   <router-view />
   <Footer />
 </template>
-f
+
 <script>
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
@@ -16,8 +16,8 @@ export default {
 
 <style>
 body {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 75px;
+  padding-bottom: 100px;
 }
 
 #app {

@@ -4,9 +4,9 @@
     class="bg-dark footer-expand-lg fixed-bottom text-center text-white mt-5"
   >
     <!-- Grid container -->
-    <div class="container p-4 pb-0">
+    <div class="container pb-0">
       <!-- Section: Social media -->
-      <section class="mb-4">
+      <section class="">
         <!-- Linkedin -->
         <a
           class="btn btn-outline-light btn-floating m-1"
@@ -34,7 +34,7 @@
             ><span
               class="iconify mx-2"
               data-icon="simple-icons:netlify"
-              style="font-size: 2rem"
+              style="font-size: 20px"
             ></span></i
         ></a>
       </section>
@@ -43,7 +43,7 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    <div class="text-center" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2022 Copyright:
       <p class="text-white">darrenpetersen16@gmail.com</p>
     </div>

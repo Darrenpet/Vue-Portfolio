@@ -1,31 +1,37 @@
 <template>
-  <section id="home" class="section-slide home d-flex">
-    <div class="container my-auto position-relative pe-none">
-      <div class="row">
-        <div class="offset-2 col-8 offset-md-2 col-md-8">
-          <div class="row gy-5">
-            <div class="col-md-6">
-              <div class="about-image h-100 d-flex align-items-center">
-                <img
-                  class="rounded-circle img-fluid"
-                  src="@/assets/Landing/DarrenPetersen.jpg"
-                  alt="Darren"
-                />
-              </div>
-            </div>
-            <div class="col-md-6 mt-5">
-              <div class="container">
-                <p class="h1 fw-bold">Darren Petersen</p>
-                <p class="fw-bold h3 display-6">
-                  Aspiring <span class="text-primary" id="text"></span>
-                </p>
+  <div class="mt-5">
+    <div class="mt-5 pt-5">
+      <section id="home" class="section-slide home d-flex mt-5 pt-5">
+        <div class="container my-auto position-relative pe-none">
+          <div class="row">
+            <div class="offset-2 col-8 offset-md-2 col-md-8">
+              <div class="row gy-5">
+                <div class="col-md-6">
+                  <div class="about-image h-100 d-flex align-items-center">
+                    <img
+                      class="rounded-circle img-fluid"
+                      src="@/assets/Landing/DarrenPetersen.jpg"
+                      alt="Darren"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6 mt-5">
+                  <div class="container">
+                    <router-link to="/">
+                      <p class="h1 fw-bold">Darren Petersen</p></router-link
+                    >
+                    <p class="fw-bold h3 display-6">
+                      Aspiring <span class="text-primary" id="text"></span>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -137,8 +143,6 @@ sentenceLoop(sentences, "#text");
 <style>
 #particles-js {
   position: absolute;
-  width: 100%;
-  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -146,7 +150,7 @@ sentenceLoop(sentences, "#text");
 }
 
 .section-slide {
-  height: auto;
+  padding-top: 50px;
   background-size: cover;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -154,14 +158,10 @@ sentenceLoop(sentences, "#text");
 }
 
 .section-slide .img-fluid {
-  max-width: 100%;
-  height: auto;
   border-radius: 50%;
 }
 
 .section-slide .home .container {
-  height: auto;
-  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,7 +169,6 @@ sentenceLoop(sentences, "#text");
 
 .section-slide .home .container p {
   font-size: 3rem;
-  padding: 0.5rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
   text-align: center;
@@ -194,9 +193,5 @@ sentenceLoop(sentences, "#text");
   100% {
     background: white;
   }
-}
-
-.row {
-  padding-top: 30px;
 }
 </style>

@@ -1,8 +1,12 @@
 <template>
-  <h2 class="fw-bold">My Resume</h2>
+  <h1 class="fw-bold mt-5">My Resume</h1>
   <div class="main-container my-5">
     <div v-if="resume.length">
-      <div v-for="item in resume" class="col-sm-12 col-md-12 col-xl-12">
+      <div
+        v-for="item in resume"
+        :key="item.id"
+        class="col-sm-12 col-md-12 col-xl-12"
+      >
         <section id="timeline" class="timeline-outer">
           <div class="container" id="content">
             <div>
@@ -37,10 +41,19 @@ export default {
     };
   },
   mounted() {
-    fetch("http://localhost:3000/resume")
-      .then((res) => res.json())
-      .then((data) => (this.resume = data))
-      .catch((err) => console.log(err.message));
+    fetch("https://vue-portfolio-api.herokuapp.com/resume", {
+      method: "GET",
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((response) => response.json())
+      .then((json) => {
+        this.resume = json;
+      })
+      .catch((err) => {
+        alert(console.log(err));
+      });
   },
 };
 </script>

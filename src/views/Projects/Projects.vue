@@ -1,18 +1,13 @@
 <template>
-  <h2 class="fw-bold mb-5">Project Page</h2>
+  <h1 class="fw-bold my-5">Project Page</h1>
   <div class="container">
     <div v-if="projects.length">
-      <div v-for="project in projects" :key="project.id" class="project">
+      <div v-for="project in projects" :key="project._id" class="project">
         <router-link
           :to="{
             name: 'ProjectDetails',
             params: {
-              id: project.id,
-              title: project.title,
-              details: project.details,
-              img: project.img,
-              github: project.github,
-              netlify: project.netlify,
+              id: project._id,
             },
           }"
         >
@@ -36,10 +31,19 @@ export default {
     };
   },
   mounted() {
-    fetch("http://localhost:3000/projects")
-      .then((res) => res.json())
-      .then((data) => (this.projects = data))
-      .catch((err) => console.log(err.message));
+    fetch("https://vue-portfolio-api.herokuapp.com/projects", {
+      method: "GET",
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((response) => response.json())
+      .then((json) => {
+        this.projects = json;
+      })
+      .catch((err) => {
+        alert(console.log(err));
+      });
   },
 };
 </script>

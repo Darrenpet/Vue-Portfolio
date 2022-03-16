@@ -1,5 +1,5 @@
 <template>
-  <h2 class="fw-bold my-5">Project Details</h2>
+  <h1 class="fw-bold my-5">Project Details</h1>
   <div class="container animate__animated animate__rubberBand">
     <div v-if="project">
       <div
@@ -21,7 +21,7 @@
             ></div>
           </a>
         </div>
-        <div class="card-header">Project: {{ project.id }}</div>
+        <div class="card-header">Project: {{ project._id }}</div>
         <div class="card-body">
           <h5 class="card-title">{{ project.title }}</h5>
           <p class="card-text">{{ project.details }}</p>
@@ -50,19 +50,30 @@
 
 <script>
 export default {
-  props: ["id", "details", "title", "img", "github", "netlify"],
+  props: ["id"],
   data() {
     return {
       project: null,
     };
   },
   mounted() {
-    fetch("http://localhost:3000/projects/" + this.id)
-      .then((res) => res.json())
-      .then((data) => (this.project = data))
-      .catch((err) => console.log(err.message));
+    fetch("https://vue-portfolio-api.herokuapp.com/projects/" + this.id, {
+      method: "GET",
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((response) => response.json())
+      .then((json) => {
+        this.projects = json;
+      });
   },
 };
 </script>
 
-<style></style>
+<style scoped>
+.img-fluid {
+  max-width: 500px;
+  max-height: 500px;
+}
+</style>
