@@ -28,7 +28,18 @@
       </div>
     </div>
     <div v-else>
-      <p>Loading resume...</p>
+      <p class="my-5">Loading Resume...</p>
+      <div class="breeding-rhombus-spinner my-5">
+        <div class="rhombus child-1"></div>
+        <div class="rhombus child-2"></div>
+        <div class="rhombus child-3"></div>
+        <div class="rhombus child-4"></div>
+        <div class="rhombus child-5"></div>
+        <div class="rhombus child-6"></div>
+        <div class="rhombus child-7"></div>
+        <div class="rhombus child-8"></div>
+        <div class="rhombus big"></div>
+      </div>
     </div>
   </div>
 </template>

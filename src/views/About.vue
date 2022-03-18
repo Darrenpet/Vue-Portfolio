@@ -95,7 +95,7 @@
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">60 %</h3>
+                <h3 class="text-primary">75 %</h3>
                 <p class="mb-0">CSS</p>
               </div>
               <div class="align-self-center">
@@ -107,8 +107,8 @@
                 <div
                   class="progress-bar bg-dark progress-bar-animated"
                   role="progressbar"
-                  style="width: 60%"
-                  aria-valuenow="60"
+                  style="width: 75%"
+                  aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -123,7 +123,7 @@
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">65 %</h3>
+                <h3 class="text-primary">70 %</h3>
                 <p class="mb-0">JavaScript</p>
               </div>
               <div class="align-self-center">
@@ -135,8 +135,8 @@
                 <div
                   class="progress-bar bg-dark progress-bar-animated"
                   role="progressbar"
-                  style="width: 65%"
-                  aria-valuenow="65"
+                  style="width: 70%"
+                  aria-valuenow="70"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -149,7 +149,7 @@
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">65 %</h3>
+                <h3 class="text-primary">80%</h3>
                 <p class="mb-0">Vue</p>
               </div>
               <div class="align-self-center">
@@ -161,8 +161,8 @@
                 <div
                   class="progress-bar bg-dark progress-bar-animated"
                   role="progressbar"
-                  style="width: 65%"
-                  aria-valuenow="65"
+                  style="width: 80%"
+                  aria-valuenow="80"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -177,7 +177,7 @@
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">60 %</h3>
+                <h3 class="text-primary">65 %</h3>
                 <p class="mb-0">MySQL</p>
               </div>
               <div class="align-self-center">
@@ -189,8 +189,8 @@
                 <div
                   class="progress-bar bg-dark progress-bar-animated"
                   role="progressbar"
-                  style="width: 60%"
-                  aria-valuenow="60"
+                  style="width: 65%"
+                  aria-valuenow="65"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -203,7 +203,7 @@
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">65 %</h3>
+                <h3 class="text-primary">75 %</h3>
                 <p class="mb-0">Front End Development</p>
               </div>
               <div class="align-self-center">
@@ -215,8 +215,8 @@
                 <div
                   class="progress-bar bg-dark progress-bar-animated"
                   role="progressbar"
-                  style="width: 65%"
-                  aria-valuenow="65"
+                  style="width: 75%"
+                  aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -231,7 +231,7 @@
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">60 %</h3>
+                <h3 class="text-primary">75 %</h3>
                 <p class="mb-0">Node</p>
               </div>
               <div class="align-self-center">
@@ -243,8 +243,8 @@
                 <div
                   class="progress-bar bg-dark progress-bar-animated"
                   role="progressbar"
-                  style="width: 60%"
-                  aria-valuenow="60"
+                  style="width: 75%"
+                  aria-valuenow="75"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -257,7 +257,7 @@
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">60 %</h3>
+                <h3 class="text-primary">70 %</h3>
                 <p class="mb-0">MongoDB</p>
               </div>
               <div class="align-self-center">
@@ -269,8 +269,8 @@
                 <div
                   class="progress-bar bg-dark progress-bar-animated"
                   role="progressbar"
-                  style="width: 60%"
-                  aria-valuenow="60"
+                  style="width: 70%"
+                  aria-valuenow="70"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -285,7 +285,7 @@
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">70 %</h3>
+                <h3 class="text-primary">80 %</h3>
                 <p class="mb-0">Bootstrap</p>
               </div>
               <div class="align-self-center">
@@ -297,8 +297,8 @@
                 <div
                   class="progress-bar bg-dark progress-bar-animated"
                   role="progressbar"
-                  style="width: 70%"
-                  aria-valuenow="30"
+                  style="width: 80%"
+                  aria-valuenow="80"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -313,7 +313,7 @@
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">70 %</h3>
+                <h3 class="text-primary">80 %</h3>
                 <p class="mb-0">Back End Development</p>
               </div>
               <div class="align-self-center">
@@ -325,8 +325,8 @@
                 <div
                   class="progress-bar bg-dark progress-bar-animated"
                   role="progressbar"
-                  style="width: 70%"
-                  aria-valuenow="70"
+                  style="width: 80%"
+                  aria-valuenow="80"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>

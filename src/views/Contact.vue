@@ -5,7 +5,7 @@
         class="col-xl-6 col-md-6 col-sm-12 animate__animated animate__rotateInDownLeft content-center"
       >
         <h1 class="fw-bold">Contact Me</h1>
-        <form @submit.prevent="handleSubmit">
+        <form @submit.prevent="handleSubmit()">
           <label class="h4 text-dark">Full Name:</label>
           <input
             class="mb-5 border-3"
@@ -38,8 +38,11 @@
           </div>
 
           <div class="submit my-3">
-            <button class="btn-primary" type="submit" target="_blank">
+            <button class="btn-primary mx-2" type="submit" target="_blank">
               Submit
+            </button>
+            <button class="btn-primary mx-2" type="reset" target="_blank">
+              Reset
             </button>
           </div>
         </form>
@@ -120,8 +123,8 @@ export default {
         },
       })
         .then((res) => res.json())
-        .then((data) => (this.contact = data))
-        .catch((err) => console.log(err.message));
+        .then((data) => (this.contact = data));
+      alert("Message Sent!").catch((err) => console.log(err.message));
     },
   },
 };

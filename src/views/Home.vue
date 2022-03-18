@@ -150,7 +150,6 @@ sentenceLoop(sentences, "#text");
 }
 
 .section-slide {
-  padding-top: 50px;
   background-size: cover;
   background-attachment: fixed;
   background-position: 50% 50%;
