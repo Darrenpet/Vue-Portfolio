@@ -16,7 +16,7 @@ export default {
 
 <style>
 body {
-  padding-top: 100px;
+  padding-top: 75px;
   padding-bottom: 100px;
 }
 

@@ -3,7 +3,7 @@
   <div class="container animate__animated animate__rubberBand">
     <div v-if="project">
       <div
-        class="card border border-primary shadow-0 text-white my-5"
+        class="card detials border border-primary shadow-0 text-white"
         style="background-color: #000000"
       >
         <div
@@ -43,18 +43,7 @@
       </div>
     </div>
     <div v-else>
-      <p class="my-5">Loading project details...</p>
-      <div class="breeding-rhombus-spinner my-5">
-        <div class="rhombus child-1"></div>
-        <div class="rhombus child-2"></div>
-        <div class="rhombus child-3"></div>
-        <div class="rhombus child-4"></div>
-        <div class="rhombus child-5"></div>
-        <div class="rhombus child-6"></div>
-        <div class="rhombus child-7"></div>
-        <div class="rhombus child-8"></div>
-        <div class="rhombus big"></div>
-      </div>
+      <p>Loading project details...</p>
     </div>
   </div>
 </template>
@@ -83,15 +72,14 @@ export default {
 </script>
 
 <style scoped>
-.img-fluid {
-  max-width: 500px;
-  max-height: 500px;
+.card {
+  min-height: 400px;
+  min-width: 400px;
 }
 
-.card {
-  max-height: 600px;
-  max-width: 600px;
-  display: inline-block;
+.details {
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .breeding-rhombus-spinner {

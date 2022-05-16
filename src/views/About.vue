@@ -56,336 +56,194 @@
             ></a>
           </li>
         </ul>
+        <a
+          href="https://drive.google.com/drive/u/0/folders/1Fvn5m_zfat1Tsg4k7LcIZ5bHNhRqj32o?lfhs=2"
+          target="_blank"
+          >Download CV</a
+        >
       </div>
     </div>
   </div>
 
+  <h1 class="fw-bold my-5">Tech Stacks</h1>
   <div
     class="container my-5 animate__animated animate__fadeInRight animate__delay-2s"
   >
     <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">90 %</h3>
-                <p class="mb-0">HTML</p>
+                <h3 class="fw-bold">HTML</h3>
               </div>
               <div class="align-self-center">
-                <i class="fab fa-html5 text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 90%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card my-3 shadow-5-strong">
-          <div class="card-body">
-            <div class="d-flex justify-content-between text-start px-md-1">
-              <div>
-                <h3 class="text-primary">75 %</h3>
-                <p class="mb-0">CSS</p>
-              </div>
-              <div class="align-self-center">
-                <i class="fab fa-css3-alt text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 75%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <i class="fab fa-html5 text-primary fa-4x"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">70 %</h3>
-                <p class="mb-0">JavaScript</p>
+                <h3 class="fw-bold">CSS</h3>
               </div>
               <div class="align-self-center">
-                <i class="fab fa-js-square text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 70%"
-                  aria-valuenow="70"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card my-3 shadow-5-strong">
-          <div class="card-body">
-            <div class="d-flex justify-content-between text-start px-md-1">
-              <div>
-                <h3 class="text-primary">80%</h3>
-                <p class="mb-0">Vue</p>
-              </div>
-              <div class="align-self-center">
-                <i class="fab fa-vuejs text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <i class="fab fa-css3-alt text-primary fa-4x"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">65 %</h3>
-                <p class="mb-0">MySQL</p>
+                <h3 class="fw-bold">JavaScript</h3>
               </div>
               <div class="align-self-center">
-                <i class="fas fa-table text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 65%"
-                  aria-valuenow="65"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card my-3 shadow-5-strong">
-          <div class="card-body">
-            <div class="d-flex justify-content-between text-start px-md-1">
-              <div>
-                <h3 class="text-primary">75 %</h3>
-                <p class="mb-0">Front End Development</p>
-              </div>
-              <div class="align-self-center">
-                <i class="fas fa-desktop text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 75%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <i class="fab fa-js-square text-primary fa-4x"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">75 %</h3>
-                <p class="mb-0">Node</p>
+                <h3 class="fw-bold">Vue.js</h3>
               </div>
               <div class="align-self-center">
-                <i class="fab fa-node text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 75%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card my-3 shadow-5-strong">
-          <div class="card-body">
-            <div class="d-flex justify-content-between text-start px-md-1">
-              <div>
-                <h3 class="text-primary">70 %</h3>
-                <p class="mb-0">MongoDB</p>
-              </div>
-              <div class="align-self-center">
-                <i class="fas fa-database text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 70%"
-                  aria-valuenow="70"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <i class="fab fa-vuejs text-primary fa-4x"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">80 %</h3>
-                <p class="mb-0">Bootstrap</p>
+                <h3 class="fw-bold">MySQL</h3>
               </div>
               <div class="align-self-center">
-                <i class="fab fa-bootstrap text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <i class="fas fa-table text-primary fa-4x"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">80 %</h3>
-                <p class="mb-0">Back End Development</p>
+                <h3 class="fw-bold">Figma</h3>
               </div>
               <div class="align-self-center">
-                <i class="fas fa-server text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <i class="fab fa-figma text-primary fa-4x"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">70 %</h3>
-                <p class="mb-0">Express</p>
+                <h3 class="fw-bold">Node.js</h3>
               </div>
               <div class="align-self-center">
-                <i class="fab fa-node-js text-primary fa-3x"></i>
-              </div>
-            </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 70%"
-                  aria-valuenow="30"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+                <i class="fab fa-node text-primary fa-4x"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="card my-3 shadow-5-strong">
           <div class="card-body">
             <div class="d-flex justify-content-between text-start px-md-1">
               <div>
-                <h3 class="text-primary">70 %</h3>
-                <p class="mb-0">Firebase</p>
+                <h3 class="fw-bold">MongoDB</h3>
               </div>
               <div class="align-self-center">
-                <i class="fas fa-fire text-primary fa-3x"></i>
+                <i class="fas fa-database text-primary fa-4x"></i>
               </div>
             </div>
-            <div class="px-md-1">
-              <div class="progress mt-3 mb-1 rounded" style="height: 7px">
-                <div
-                  class="progress-bar bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style="width: 70%"
-                  aria-valuenow="70"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card my-3 shadow-5-strong">
+          <div class="card-body">
+            <div class="d-flex justify-content-between text-start px-md-1">
+              <div>
+                <h3 class="fw-bold">Bootstrap</h3>
+              </div>
+              <div class="align-self-center">
+                <i class="fab fa-bootstrap text-primary fa-4x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card my-3 shadow-5-strong">
+          <div class="card-body">
+            <div class="d-flex justify-content-between text-start px-md-1">
+              <div>
+                <h3 class="fw-bold">PostgreSQL</h3>
+              </div>
+              <div class="align-self-center">
+                <i class="fas fa-table text-primary fa-4x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card my-3 shadow-5-strong">
+          <div class="card-body">
+            <div class="d-flex justify-content-between text-start px-md-1">
+              <div>
+                <h3 class="fw-bold">Express.js</h3>
+              </div>
+              <div class="align-self-center">
+                <i class="fab fa-node-js text-primary fa-4x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card my-3 shadow-5-strong">
+          <div class="card-body">
+            <div class="d-flex justify-content-between text-start px-md-1">
+              <div>
+                <h3 class="fw-bold">Firebase</h3>
+              </div>
+              <div class="align-self-center">
+                <i class="fas fa-fire text-primary fa-4x"></i>
               </div>
             </div>
           </div>
@@ -398,5 +256,9 @@
 <style>
 .progress {
   background-color: whitesmoke;
+}
+
+.card {
+  min-height: 120px;
 }
 </style>

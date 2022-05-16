@@ -37,13 +37,9 @@
             ></textarea>
           </div>
 
-          <div class="submit my-3">
-            <button class="btn-primary mx-2" type="submit" target="_blank">
-              Submit
-            </button>
-            <button class="btn-primary mx-2" type="reset" target="_blank">
-              Reset
-            </button>
+          <div class="submit d-flex my-3">
+            <input type="submit" class="btn-primary mx-2" value="Submit" />
+            <input type="reset" value="Reset" class="btn-primary mx-2" />
           </div>
         </form>
       </div>

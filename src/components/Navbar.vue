@@ -6,9 +6,9 @@
       target="#navbarSupportedContent"
     ></MDBNavbarToggler>
     <MDBCollapse v-model="collapse1" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto d-flex flex-row mt-lg-0">
+      <ul class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0">
         <li class="nav-item text-center mx-2 mx-lg-1">
-          <MDBNavbarNav class="navbar-nav ms-auto d-flex flex-row mt-lg-0">
+          <MDBNavbarNav class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0">
             <MDBNavbarItem>
               <router-link
                 class="nav-link active mx-2"

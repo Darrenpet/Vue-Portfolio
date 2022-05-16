@@ -18,8 +18,7 @@
       </div>
     </div>
     <div v-else>
-      <p class="my-5">Loading Products...</p>
-      <div class="breeding-rhombus-spinner my-5">
+      <div class="breeding-rhombus-spinner">
         <div class="rhombus child-1"></div>
         <div class="rhombus child-2"></div>
         <div class="rhombus child-3"></div>
