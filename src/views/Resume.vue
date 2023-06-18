@@ -51,7 +51,7 @@ export default {
     };
   },
   mounted() {
-    fetch("https://vue-portfolio-api.herokuapp.com/resume", {
+    fetch("https://blue-violet-tick-sari.cyclic.app/resume", {
       method: "GET",
       headers: {
         "Content-type": "application/json; charset=UTF-8",

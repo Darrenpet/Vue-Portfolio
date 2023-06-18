@@ -107,7 +107,7 @@ export default {
 
   methods: {
     handleSubmit() {
-      fetch("https://vue-portfolio-api.herokuapp.com/contact", {
+      fetch("https://blue-violet-tick-sari.cyclic.app/contact", {
         method: "POST",
         body: JSON.stringify({
           name: this.name,
